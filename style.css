@@ -1,0 +1,36 @@
+body{
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    background-color: black;
+}
+
+div.container > div{
+    margin: 5px;
+    font-size: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    color: white;
+}
+
+.container{
+    background-color: rgb(15, 15, 15);
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.container{
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.content{
+    text-align: center;
+    color: var(--sk-headline-text-color,rgb(47, 47, 50));
+    margin: 125px;
+}
+
+
